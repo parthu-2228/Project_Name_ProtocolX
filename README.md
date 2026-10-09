@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🤔 What Did I Miss?
 
 > **Local-First AI micro-app** that catches you up on overwhelming chat conversations — in seconds, with zero data ever leaving your device.
@@ -257,3 +258,7 @@ MIT © 2026 — See [LICENSE](LICENSE) for details.
 Built for a hackathon with ❤️. Inspired by the very real problem of returning to 500 unread messages and not knowing what happened.
 
 > *"What did I miss?"* — Everyone, every day.
+=======
+# Project_Name_ProtocolX
+A Project i have build in an hackathon.
+>>>>>>> 4353af3148e8630ac712d0b4f745129ba291eafe
