@@ -1,0 +1,40 @@
+[10/09/26, 9:15:20 AM] Messages and calls are end-to-end encrypted. No one outside of this chat, not even WhatsApp, can read or listen to them.
+[10/09/26, 9:16:00 AM] Rohan created group "Hackathon Blitz 🚀"
+[10/09/26, 9:16:45 AM] Rohan: Good morning team! Hackathon submission is in 28 hours. Let's align on today's targets.
+[10/09/26, 9:17:30 AM] Aisha: Morning! I just reviewed the problem statement again. Privacy is going to be the #1 judging criteria.
+[10/09/26, 9:18:10 AM] Vikram: +1 to Aisha. Most teams will just call cloud OpenAI API and get disqualified for leaking user chat history.
+[10/09/26, 9:19:05 AM] Partha: Morning guys. Agree 100%. Our app "What Did I Miss?" will be strictly local-first. Raw chats and summaries will never leave the browser.
+[10/09/26, 9:20:15 AM] Rohan: Bhai kal tak ho jayega na? Judges are coming at 11 AM tomorrow for preliminary inspection.
+[10/09/26, 9:21:00 AM] Partha: Haan pakka. The architecture is locked: Dexie IndexedDB in browser, local Ollama or rule-based fallback, and Supabase strictly for user preferences with RLS.
+[10/09/26, 9:22:40 AM] Aisha: DECIDED: We are sticking to llama3.2 locally and Dexie IndexedDB for zero data leakage.
+[10/09/26, 9:23:15 AM] Sneha: Hey guys, I just joined. Did anyone order cold coffee? ☕
+[10/09/26, 9:23:45 AM] Vikram: lol Sneha prioritize coffee first 😂
+[10/09/26, 9:25:00 AM] Rohan: @Partha Can you finalize the chunking and map-reduce logic for 300+ messages by tonight 8:00 PM? That's a critical blocker for our live test.
+[10/09/26, 9:26:15 AM] Partha: Yes, on it. Working on map-reduce chunking right now.
+[10/09/26, 9:28:00 AM] Aisha: Action item for me: I will write the Supabase schema and configure Row Level Security policies by 2:00 PM today.
+[10/09/26, 9:29:30 AM] Vikram: I'll work on the pitch deck. Need everyone's input for competitive advantage slide.
+[10/09/26, 9:32:00 AM] Rohan: URGENT: Vikram, we need the first draft of pitch slides by tomorrow morning at 9:00 AM before the dry run.
+[10/09/26, 9:33:10 AM] Vikram: Got it, kal subah 9 AM tak slides ready ho jayengi.
+[10/09/26, 9:35:45 AM] Sneha: Guys, what about Hinglish and slang support in chats? Like "jaldi kar", "kal tak", "scene kya hai"?
+[10/09/26, 9:37:20 AM] Partha: Good catch Sneha.
+I am baking Hindi/Hinglish urgency keywords into our NLP rule engine:
+- jaldi, turant, abhi
+- kal tak, parso
+- pakka, blocker, urgent
+So even if Ollama isn't started, the rule engine picks them up instantly!
+[10/09/26, 9:40:00 AM] Rohan: Wah, brilliant! @Partha Parth, can we run this offline in airplane mode during the stage presentation?
+[10/09/26, 9:41:15 AM] Partha: Absolutely. Zero external dependencies for chat processing. Internet can be completely off!
+[10/09/26, 9:45:00 AM] Aisha: Quick update: Supabase profiles & user_settings tables created. Verified that NO chat text can ever enter Postgres.
+[10/09/26, 9:47:30 AM] Rohan: DECIDED: Live stage demo will be done in Airplane mode to prove 100% on-device privacy.
+[10/09/26, 9:50:00 AM] Sneha: Love that! I will prepare the demo test dataset with 40 realistic messages.
+[10/09/26, 10:02:10 AM] Vikram: Anyone hungry? Ordering samosas and tea 🥟☕
+[10/09/26, 10:03:00 AM] Partha: +1 samosa please!
+[10/09/26, 10:04:15 AM] Aisha: +1 haha thanks Vikram
+[10/09/26, 10:15:00 AM] Rohan: @Partha Hey, what happens if the user's laptop has no GPU or Ollama crashes?
+[10/09/26, 10:17:00 AM] Partha: We built an instant regex + chrono-node fallback engine. It runs in under 15ms directly on device, extracts deadlines, scores priority, and summarizes automatically!
+[10/09/26, 10:18:30 AM] Aisha: That completely de-risks our demo. If Ollama takes too long, fallback handles it seamlessly.
+[10/09/26, 10:30:00 AM] Rohan: Remember: Final project submission deadline is tomorrow by 4:00 PM sharp. No extensions.
+[10/09/26, 10:31:00 AM] Sneha: Copied. Action item for Sneha: Record the 2-minute backup video walkthrough by 1:00 PM tomorrow.
+[10/09/26, 10:35:00 AM] Vikram: Let's do a mock presentation today at 6:00 PM in meeting room B.
+[10/09/26, 10:36:20 AM] Partha: Perfect. I'll have the dashboard, timeline, and privacy badge ready for the 6 PM mock demo.
+[10/09/26, 10:40:00 AM] Rohan: Superb pace guys. Let's win this hackathon! 🏆

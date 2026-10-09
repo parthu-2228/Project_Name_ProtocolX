@@ -1,0 +1,23 @@
+Rohan, [09.10.26 14:02]
+Hey team, starting the Telegram sprint sync. We need to finalize the product release candidate.
+
+Aisha, [09.10.26 14:04]
+I pushed the latest auth fixes. All unit tests are green now.
+
+Vikram, [09.10.26 14:06]
+Quick blocker: the billing webhook is failing for sandbox accounts. Someone needs to investigate.
+
+Rohan, [09.10.26 14:08]
+@Partha can you please check the webhook logs by 5:00 PM today? That is our top priority blocker.
+
+Partha, [09.10.26 14:10]
+Yes Rohan, I am on it. Will inspect and patch the webhook before 5 PM.
+
+Aisha, [09.10.26 14:12]
+DECIDED: We will freeze code deployment at 6:00 PM today for QA sign-off.
+
+Sneha, [09.10.26 14:15]
+Action item for Sneha: Update the changelog and release notes by tomorrow at 10:00 AM.
+
+Rohan, [09.10.26 14:18]
+Remember guys, the client demo is scheduled for tomorrow at 2:00 PM sharp.

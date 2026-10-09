@@ -1,0 +1,20 @@
+DevLead — 10/09/2026 1:15 PM
+Welcome everyone to the #engineering-core channel!
+
+Alex — 10/09/2026 1:18 PM
+Hey team, we're noticing a latency spike on the database read replicas.
+
+Sarah — 10/09/2026 1:22 PM
+I checked the queries. It looks like an unindexed join on the telemetry table.
+
+DevLead — 10/09/2026 1:25 PM
+@Partha could you write a migration script to add the composite index by tonight 9:00 PM?
+
+Partha — 10/09/2026 1:27 PM
+On it Alex. Adding index on (user_id, created_at). Will deploy migration before 9 PM.
+
+DevLead — 10/09/2026 1:30 PM
+DECIDED: We are enabling query caching for all read-only dashboard endpoints.
+
+Sarah — 10/09/2026 1:35 PM
+Action item for Sarah: Monitor cache hit rates and share graphs by tomorrow morning at 11:00 AM.

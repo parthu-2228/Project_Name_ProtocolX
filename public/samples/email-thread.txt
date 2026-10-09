@@ -1,0 +1,24 @@
+From: manager@acme-corp.com
+Date: Fri, Oct 9, 2026, 11:30 AM
+Subject: Urgent: Q4 Roadmap & Deliverable Sign-off
+
+Hi Team,
+We need to finalize the Q4 deliverables before the executive committee meeting on Monday at 9:00 AM.
+Please review the attached proposal and send your sign-offs.
+
+---------- Forwarded message ---------
+From: partha@acme-corp.com
+Date: Fri, Oct 9, 2026, 12:15 PM
+Subject: Re: Urgent: Q4 Roadmap & Deliverable Sign-off
+
+Hi Manager,
+I have reviewed the technical scope. The local-first privacy engine is on schedule.
+Action item for Partha: I will deliver the security audit report by today 4:00 PM.
+
+---------- Forwarded message ---------
+From: manager@acme-corp.com
+Date: Fri, Oct 9, 2026, 12:45 PM
+Subject: Re: Urgent: Q4 Roadmap & Deliverable Sign-off
+
+DECIDED: We are allocating $25k cloud credits for local-first testing and zero-telemetry hardware rigs.
+Rohan, please verify vendor agreements by tomorrow at 3:00 PM.
